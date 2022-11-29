@@ -61,7 +61,7 @@ function showWinner(winner, computerChoice) {
     // Show modal result
     result.innerHTML = `
       <h1 class="text-win">You Win</h1>
-      <img class="result-img" src="/images/winner.jpg" alt="winner">
+      <img class="result-img" src="images/winner.jpg" alt="winner">
       <p>Computer Chose <strong>${computerChoice.charAt(0).toUpperCase() +
         computerChoice.slice(1)}</strong></p>
     `;
@@ -71,14 +71,14 @@ function showWinner(winner, computerChoice) {
     // Show modal result
     result.innerHTML = `
       <h1 class="text-lose">You Lose</h1>
-      <img class="result-img" src="/images/sorry.jpg" alt="sorry">
+      <img class="result-img" src="images/sorry.jpg" alt="sorry">
       <p>Computer Chose <strong>${computerChoice.charAt(0).toUpperCase() +
         computerChoice.slice(1)}</strong></p>
     `;
   } else {
     result.innerHTML = `
       <h1>It's A Draw</h1>
-      <img class="result-img" src="/images/try again.jpg" alt="try again">
+      <img class="result-img" src="images/try again.jpg" alt="try again">
       <h2>Computer Chose <strong>${computerChoice.charAt(0).toUpperCase() +
         computerChoice.slice(1)}</strong></h2>
     `;
